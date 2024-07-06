@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 5
+names: ['Boot', 'Glove', 'Goggles', 'Helmet', 'Vest']
+
+roboflow:
+  workspace: tayyab-5ym6o
+  project: nomi-ka-project
+  version: 6
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/tayyab-5ym6o/nomi-ka-project/dataset/6
